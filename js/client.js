@@ -11,7 +11,7 @@ TrelloPowerUp.initialize({
 			callback: function(t){
 				return t.popup({
 					title: "Estimation",
-					url: './view/estimate.html',
+					url: './estimate.html',
 				});
 			}
 
