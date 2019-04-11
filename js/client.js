@@ -1,7 +1,7 @@
 
 var Promise = TrelloPowerUp.Promise;
 
-var TEST_ICON = './images/test-icon.svg';
+var TEST_ICON = '/images/test-icon.svg';
 
 TrelloPowerUp.initialize({
 	'card-buttons': function(t, options){
@@ -11,7 +11,7 @@ TrelloPowerUp.initialize({
 			callback: function(t){
 				return t.popup({
 					title: "Estimation",
-					url: './view/estimate.html'
+					url: '/view/estimate.html',
 				});
 			}
 
