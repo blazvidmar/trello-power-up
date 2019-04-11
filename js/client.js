@@ -7,7 +7,7 @@ TrelloPowerUp.initialize({
 	'card-buttons': function(t, options){
 		return [{
 			icon: TEST_ICON,
-			text: 'Test Icon',
+			text: 'Test Button',
 		}];
 	},
 });
