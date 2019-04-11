@@ -1,11 +1,13 @@
 
 var Promise = TrelloPowerUp.Promise;
 
+var TEST_ICON = './images/test-icon.svg';
+
 TrelloPowerUp.initialize({
 	'card-buttons': function(t, options){
 		return [{
-			icon: 'https://superawesomevectors.com/wp-content/uploads/2015/11/test-tube-free-flat-vector-icon.jpg',
-			text: 'Testing',
+			icon: TEST_ICON,
+			text: 'Test Icon',
 		}];
 	},
 });
