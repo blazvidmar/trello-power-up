@@ -8,6 +8,13 @@ TrelloPowerUp.initialize({
 		return [{
 			icon: TEST_ICON,
 			text: 'Test Button',
+			callback: function(t){
+				return t.popup({
+					title: "Estimation",
+					url: './view/estimate.html'
+				});
+			}
+
 		}];
 	},
 });
